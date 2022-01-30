@@ -6,6 +6,11 @@ import {
     InfoRow,
     InfoColumn,
     TextWrapper,
+    TopLine,
+    Heading,
+    Subtitle,
+    ImgWrapper,
+    Img
 } from './InfoSection.elements';
 
 function InfoSection({
@@ -13,6 +18,15 @@ function InfoSection({
     lightBg,
     buttonLabel,
     imgStart,
+    lightTopLine,
+    lightTextDes,
+    description,
+    headline,
+    lightText,
+    topLine,
+    img,
+    alt,
+    start,
 }) {
     return (
         <>
@@ -21,6 +35,9 @@ function InfoSection({
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
                             <TextWrapper>
+                                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                                <Heading lightText={lightText}>{headline}</Heading>
+                                <Subtitle lightTextDes={lightTextDes}>{description}</Subtitle>
                                 <Link to='/sign-up'>
                                     <Button big fontBig primary={primary}>
                                         {buttonLabel}
@@ -29,7 +46,9 @@ function InfoSection({
                             </TextWrapper>
                         </InfoColumn>
                         <InfoColumn>
-
+                            <ImgWrapper start={start}>
+                                <Img src={img} alt={alt} />
+                            </ImgWrapper>
                         </InfoColumn>
                     </InfoRow>
                 </Container>
