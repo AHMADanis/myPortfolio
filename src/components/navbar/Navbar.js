@@ -33,7 +33,7 @@ const Navbar = () => {
                     <NavbarContainer>
                         <NavLogo to='/'>
                             <NavIcon />
-                            ANEES AHMAD
+                            Anees Ahmad
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}

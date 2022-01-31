@@ -1,7 +1,7 @@
-import svg1 from '../../images/svg1.svg'
+import dev from '../../images/dev.svg'
 import svg2 from '../../images/svg2.svg'
 import svg3 from '../../images/svg3.svg'
-import profile from '../../images/profile.jpeg'
+import mobdev from '../../images/mobdev.svg'
 
 
 export const homeObjOne = {
@@ -11,12 +11,12 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Anees Ahmad',
-    headline: 'I Am a JavaScript Full-Stack Developer',
+    headline: 'I am a JavaScript Full-Stack Developer',
     description:
         'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: svg1,
+    img: dev,
     alt: 'Credit Card',
     start: ''
 };
@@ -27,13 +27,13 @@ export const homeObjTwo = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Anees Ahmad',
-    headline: 'I Am a JavaScript Full-Stack Developer',
+    topLine: 'Experienced in',
+    headline: 'Hybrid Mobile apps development',
     description:
         'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
     buttonLabel: 'Get Started',
     imgStart: 'start',
-    img: profile,
+    img: mobdev,
     alt: 'Credit Card',
     start: 'true'
 };
@@ -45,7 +45,7 @@ export const homeObjThree = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Anees Ahmad',
-    headline: 'I Am a JavaScript Full-Stack Developer',
+    headline: 'I am a JavaScript Full-Stack Developer',
     description:
         'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
     buttonLabel: 'Get Started',
@@ -56,11 +56,11 @@ export const homeObjThree = {
 };
 
 export const homeObjFour = {
-    primary: true,
-    lightBg: false,
-    lightTopLine: true,
-    lightText: true,
-    lightTextDesc: true,
+    primary: false,
+    lightBg: true,
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Anees Ahmad',
     headline: 'I Am a JavaScript Full-Stack Developer',
     description:
