@@ -4,11 +4,13 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from './components/footer/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/HomePage/Home'
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
