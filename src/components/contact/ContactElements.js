@@ -1,11 +1,71 @@
 import styled from 'styled-components'
+import { FaUserTie } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi'
+
+
+
+const Container = styled.div`
+  color: blue;
+  padding: 160px 0;
+  background: royalblue;
+`;
+
+const Row = styled.main`
+    display: flex;
+    justify-content: center;
+    background: lavender;
+    padding: 40px 0;
+`;
+
+const InfoSec = styled.div`
+    width: 100%;
+    max-width: 300px;
+    background: blueviolet;
+    border: 1px solid #eee;
+    padding: 16px;
+    box-sizing: border-box;
+    color: green;
+    border-radius: 4px;
+`
+
+
+const InfoIcon = styled(FaUserTie)`
+  color: cyan;
+  justify-self: start;
+  font-size: 1.5rem;
+ padding-right: 10px;
+`;
+
+const EmailIcon = styled(HiOutlineMail)`
+  color: cyan;
+  justify-self: start;
+  font-size: 1.5rem;
+ padding-right: 10px;
+`
+
+const IconWrapper = styled.div`
+display: flex;
+align-items: center;
+`
+const IconText = styled.p`
+color: blue;
+font: 2rem;
+`
+
+
+const InfoRow = styled.div`
+  display: flex;
+  margin: 0 -15px -15px -15px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
+`;
 
 const Input = styled.input`
     padding: 4px 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1em;
-    font-family: 'Open Sans';
     margin-bottom: 8px;
     width: 100%;
     box-sizing: border-box;
@@ -14,7 +74,7 @@ const Input = styled.input`
 
 const Form = styled.form`
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     background: white;
     border: 1px solid #eee;
     padding: 16px;
@@ -33,16 +93,18 @@ const Form = styled.form`
     } */}
 `;
 
-const Content = styled.main`
+
+
+/* const Container = styled.div`
     max-width: 800px;
-    margin: 80px auto 0 auto;
-    padding: 0 16px;
-    box-sizing: border-box;
+    margin: 20px auto 0 auto;
+    padding: 16px;
     font-family: 'Open Sans';
-    h1, h2, h3, h4, h5, h6{
-        font-family: 'Kaushan Script';
-    }
-`;
+    background: blueviolet;
+    border-radius: 3px;
+
+
+` */
 
 const TextArea = styled.textarea`
  padding: 4px 8px;
@@ -56,4 +118,4 @@ const TextArea = styled.textarea`
     height:120px;
 `
 
-export { Input, Form, Content, TextArea };
+export { Input, Form, Row, TextArea, Container, InfoRow, InfoSec, InfoIcon, IconWrapper, IconText, EmailIcon };

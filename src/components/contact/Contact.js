@@ -1,39 +1,71 @@
 import React from 'react';
-import { Input, Form, Content, TextArea } from './ContactElements'
+import {
+    Input, Form,
+    Row, TextArea,
+    Container, InfoSec,
+    InfoIcon, IconWrapper,
+    IconText, EmailIcon
+} from './ContactElements'
 import { Button } from '../../globalStyles';
-
-const contact = () => {
-    return <div>
-        <Content>
-            <h1>Contact Form</h1>
-            <Form>
-                <Input
-                    value={''}
-                    onChange={''}
-                    name="Name"
-                    type="text"
-                    placeholder="Name" />
-                <Input
-                    value={''}
-                    onChange={''}
-                    name="username"
-                    type="email"
-                    placeholder="Email" />
-                <Input
-                    value={''}
-                    onChange={''}
-                    name='mobil'
-                    type="text"
-                    placeholder="Mobile" />
-                <TextArea
+import GenIcon from './GenIcon'
 
 
-                />
-                <Button fontBig>Submit</Button>
 
-            </Form>
-        </Content>
-    </div>;
+const Contact = () => {
+    return <>
+        <Container>
+            <Row>
+                <InfoSec>
+                    <h1>Contact Info</h1>
+
+                    <IconWrapper>
+                        <GenIcon
+                            name="FaUserNurse"
+                            color="red"
+                            size="16px"
+                        />
+                        <InfoIcon />
+                        <IconText>Name</IconText>
+                    </IconWrapper>
+                    <IconWrapper>
+                        <EmailIcon />
+                        <IconText>Name</IconText>
+                    </IconWrapper>
+                    <IconWrapper>
+                        <InfoIcon />
+                        <IconText>Name</IconText>
+                    </IconWrapper>
+                    <IconWrapper>
+                        <InfoIcon />
+                        <IconText>Name</IconText>
+                    </IconWrapper>
+                </InfoSec>
+                <Form>
+                    <Input
+                        // value={''}
+                        onChange={''}
+                        name="Name"
+                        type="text"
+                        placeholder="Name" />
+                    <Input
+                        //value={''}
+                        onChange={''}
+                        name="username"
+                        type="email"
+                        placeholder="Email" />
+                    <Input
+                        // value={''}
+                        onChange={''}
+                        name='mobil'
+                        type="number"
+                        placeholder="Mobile" />
+                    <TextArea
+                    />
+                    <Button fontBig>Submit</Button>
+                </Form>
+            </Row>
+        </Container>
+    </>;
 };
 
-export default contact;
+export default Contact;
