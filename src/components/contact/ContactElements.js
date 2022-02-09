@@ -4,22 +4,16 @@ import { HiOutlineMail } from 'react-icons/hi'
 
 
 
-const Container = styled.div`
-  color: blue;
-  padding: 160px 0;
-  background: royalblue;
-`;
 
 const Row = styled.main`
     display: flex;
     justify-content: center;
-    background: lavender;
-    padding: 40px 0;
+    margin: 60px;
 `;
 
 const InfoSec = styled.div`
     width: 100%;
-    max-width: 300px;
+    max-width: 340px;
     background: blueviolet;
     border: 1px solid #eee;
     padding: 16px;
@@ -47,10 +41,7 @@ const IconWrapper = styled.div`
 display: flex;
 align-items: center;
 `
-const IconText = styled.p`
-color: blue;
-font: 2rem;
-`
+
 
 
 const InfoRow = styled.div`
@@ -85,26 +76,9 @@ const Form = styled.form`
         text-align: center;
         margin: 10px 0;
     }
-   ${'' /*  >${Button}:first-of-type{
-        margin-top: 40px;
-    }
-    >${Input}{
-        margin-top: 20px;
-    } */}
 `;
 
 
-
-/* const Container = styled.div`
-    max-width: 800px;
-    margin: 20px auto 0 auto;
-    padding: 16px;
-    font-family: 'Open Sans';
-    background: blueviolet;
-    border-radius: 3px;
-
-
-` */
 
 const TextArea = styled.textarea`
  padding: 4px 8px;
@@ -118,4 +92,4 @@ const TextArea = styled.textarea`
     height:120px;
 `
 
-export { Input, Form, Row, TextArea, Container, InfoRow, InfoSec, InfoIcon, IconWrapper, IconText, EmailIcon };
+export { Input, Form, Row, TextArea, InfoRow, InfoSec, InfoIcon, IconWrapper, EmailIcon };
