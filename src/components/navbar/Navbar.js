@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavItem, NavLinks, NavMenu, NavItemBtn, NavBtnLink } from './Navbar.elements'
 import { FaTimes, FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib';
-import { Button } from '../../globalStyles';
+import { Button } from '../common';
 
 
 const Navbar = () => {

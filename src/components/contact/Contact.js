@@ -1,14 +1,9 @@
 import React from 'react';
 import {
-    Input, Form,
-    Row, TextArea,
-    Container, InfoSec,
+    Input, Form, Row, TextArea, InfoSec,
 } from './ContactElements'
-import { Button } from '../../globalStyles';
 import GenIcon from './GenIcon'
-import { Text } from '../common';
-
-
+import { Text, Button } from '../common';
 
 const Contact = () => {
     return <>

@@ -13,13 +13,12 @@ const Row = styled.main`
 
 const InfoSec = styled.div`
     width: 100%;
-    max-width: 340px;
+    max-width: 300px;
     background: blueviolet;
     border: 1px solid #eee;
-    padding: 16px;
-    box-sizing: border-box;
+    padding: 24px;
     color: green;
-    border-radius: 4px;
+    border-radius: 10px 2px 2px 10px;
 `
 
 
@@ -65,23 +64,18 @@ const Input = styled.input`
 
 const Form = styled.form`
     width: 100%;
-    max-width: 500px;
+    max-width: 540px;
     background: white;
     border: 1px solid #eee;
-    padding: 16px;
-    box-sizing: border-box;
-    color: black;
-    border-radius: 4px;
-    .alt-text{
-        text-align: center;
-        margin: 10px 0;
-    }
+    padding: 24px;
+    margin: 4px 0;
+    border-radius: 0 6px 6px 0;
 `;
 
 
 
 const TextArea = styled.textarea`
- padding: 4px 8px;
+    padding: 4px 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1em;

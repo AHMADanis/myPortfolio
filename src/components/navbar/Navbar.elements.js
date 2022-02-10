@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Container } from '../../globalStyles'
+import { Container } from '../common/globalStyles'
 import { SiAnsible } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 
