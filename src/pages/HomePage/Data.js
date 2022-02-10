@@ -9,7 +9,7 @@ export const homeObjOne = {
     lightBg: false,
     lightTopLine: true,
     lightText: true,
-    lightTextDesc: true,
+    lightTextDesc: false,
     topLine: '',
     headline: 'I am a JavaScript Full-Stack Developer',
     description:
@@ -17,7 +17,7 @@ export const homeObjOne = {
     buttonLabel: 'Contact Me',
     imgStart: '',
     img: dev,
-    alt: 'Credit Card',
+    alt: 'WebApp',
     start: ''
 };
 
@@ -26,15 +26,14 @@ export const homeObjTwo = {
     lightBg: true,
     lightTopLine: false,
     lightText: false,
-    lightTextDesc: false,
+    lightTextDesc: true,
     topLine: 'Experienced in',
-    headline: 'Hybrid Mobile apps development',
-    description:
-        'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
+    headline: 'Hybrid Mobile Application Development',
+    description: 'Mobile Application Developer with over two years of experience in Hybrid Mobile Applications Development using React-Native. Anees is also experienced in native mobile Apps development using Kotlin and Swift. He has a good understanding of Databases like SQLite, MongoDB, MySQL...',
     buttonLabel: 'Get Started',
     imgStart: 'start',
     img: mobdev,
-    alt: 'Credit Card',
+    alt: 'mobile apps',
     start: 'true'
 };
 
