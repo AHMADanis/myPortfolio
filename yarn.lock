@@ -1060,6 +1060,18 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
+"@bit/styled-components.polished.shorthands.background-images@^3.2.0":
+  "integrity" "sha1-XmnXOMgUIKYDhKIqdivPf0Ui6e0="
+  "resolved" "https://node.bit.dev/styled-components.polished.shorthands.background-images/-/styled-components.polished.shorthands.background-images-3.2.0.tgz"
+  "version" "3.2.0"
+  dependencies:
+    "@bit/styled-components.polished.types.style" "3.2.0"
+
+"@bit/styled-components.polished.types.style@3.2.0":
+  "integrity" "sha1-hxYKoIXM4DeqtjzajqVoqiahXxw="
+  "resolved" "https://node.bit.dev/styled-components.polished.types.style/-/styled-components.polished.types.style-3.2.0.tgz"
+  "version" "3.2.0"
+
 "@csstools/normalize.css@*":
   "integrity" "sha512-M0qqxAcwCsIVfpFQSlGN5XjXWu8l5JDZN+fPt1LeW5SZexQTgnaEvgXAY+CeygRw0EeppWHi12JxESWiWrB0Sg=="
   "resolved" "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-12.0.0.tgz"
@@ -6393,6 +6405,13 @@
   "version" "3.1.0"
   dependencies:
     "find-up" "^3.0.0"
+
+"polished@^4.1.4":
+  "integrity" "sha512-Nq5Mbza+Auo7N3sQb1QMFaQiDO+4UexWuSGR7Cjb4Sw11SZIJcrrFtiZ+L0jT9MBsUsxDboHVASbCLbE1rnECg=="
+  "resolved" "https://registry.npmjs.org/polished/-/polished-4.1.4.tgz"
+  "version" "4.1.4"
+  dependencies:
+    "@babel/runtime" "^7.16.7"
 
 "portfinder@^1.0.28":
   "integrity" "sha512-Se+2isanIcEqf2XMHjyUKskczxbPH7dQnlMjXX6+dybayyHvAf/TCgyMRlzf/B6QDhAEFOGes0pzRo3by4AbMA=="

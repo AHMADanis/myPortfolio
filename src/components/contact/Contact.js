@@ -1,15 +1,11 @@
 import React, { useState } from 'react';
-import {
-    Input, Form, Row, TextArea, InfoSec,
-} from './ContactElements'
+import { Input, Form, Row, TextArea, InfoSec } from './ContactElements'
 import GenIcon from './GenIcon'
 import { Text, Button } from '../common';
 import { send } from 'emailjs-com';
-
-
+import styled from 'styled-components';
 
 const Contact = () => {
-
     const [toSend, setToSend] = useState({
         from_name: '',
         to_name: '',
@@ -39,10 +35,12 @@ const Contact = () => {
 
     return <>
         <Row>
+
             <InfoSec>
                 <Text color='white' size='24px'>Contact Info</Text>
                 <GenIcon />
             </InfoSec>
+
             <Form onSubmit={onSubmit}>
                 <Input
                     type='text'

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { FaUserTie } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi'
-
+import backgroundImages from '@bit/styled-components.polished.shorthands.background-images';
 
 
 
@@ -14,7 +14,7 @@ const Row = styled.main`
 const InfoSec = styled.div`
     width: 100%;
     max-width: 300px;
-    background: blueviolet;
+    ${backgroundImages('url("/image/background.jpg")', 'linear-gradient(#09203F,#09203F, #09203F,#537895)')}
     border: 1px solid #eee;
     padding: 24px;
     color: green;
