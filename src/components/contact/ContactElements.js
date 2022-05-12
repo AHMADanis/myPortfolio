@@ -14,7 +14,11 @@ const Row = styled.main`
 const InfoSec = styled.div`
     width: 100%;
     max-width: 300px;
+<<<<<<< HEAD
     ${backgroundImages('url("/image/background.jpg")', 'linear-gradient(#09203F,#09203F, #09203F,#537895)')}
+=======
+    background: navy;
+>>>>>>> refs/remotes/origin/master
     border: 1px solid #eee;
     padding: 24px;
     color: green;

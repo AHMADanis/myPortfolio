@@ -48,24 +48,24 @@ const Navbar = () => {
 
                             <NavItem>
                                 <NavLinks to='/Services'>
-                                    Services
+                                    Work
                                 </NavLinks>
                             </NavItem>
 
                             <NavItem>
                                 <NavLinks to='/Products'>
-                                    Products
+                                    blog
                                 </NavLinks>
                             </NavItem>
                             <NavItemBtn>
                                 {button ? (
-                                    <NavBtnLink to='/sign-up'>
-                                        <Button primary>SIGN UP</Button>
+                                    <NavBtnLink to='/contact'>
+                                        <Button primary>CONTACT</Button>
                                     </NavBtnLink>
                                 ) : (
                                     <NavBtnLink to='/sign-up'>
                                         <Button fontBig primary>
-                                            SIGNUP
+                                            CONTACT 
                                         </Button>
                                     </NavBtnLink>)}
                             </NavItemBtn>
