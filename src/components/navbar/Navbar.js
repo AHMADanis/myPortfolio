@@ -48,13 +48,13 @@ const Navbar = () => {
 
                             <NavItem>
                                 <NavLinks to='/Services'>
-                                    Services
+                                    Work
                                 </NavLinks>
                             </NavItem>
 
                             <NavItem>
                                 <NavLinks to='/Products'>
-                                    Products
+                                    blog
                                 </NavLinks>
                             </NavItem>
                             <NavItemBtn>

@@ -14,7 +14,7 @@ const Row = styled.main`
 const InfoSec = styled.div`
     width: 100%;
     max-width: 300px;
-    background: blueviolet;
+    background: navy;
     border: 1px solid #eee;
     padding: 24px;
     color: green;
