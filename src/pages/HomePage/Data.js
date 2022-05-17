@@ -1,6 +1,5 @@
 import dev from '../../images/dev.svg'
 import svg2 from '../../images/svg2.svg'
-import svg3 from '../../images/svg3.svg'
 import mobdev from '../../images/mobdev.svg'
 
 

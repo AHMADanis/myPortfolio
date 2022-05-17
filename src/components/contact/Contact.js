@@ -44,25 +44,25 @@ const Contact = () => {
                 <Input
                     type='text'
                     name='from_name'
-                    placeholder='from name'
+                    placeholder='your name'
                     value={toSend.from_name}
                     onChange={handleChange} />
                 <Input
                     type='text'
                     name='reply_to'
-                    placeholder='Your email'
+                    placeholder='your email'
                     value={toSend.reply_to}
                     onChange={handleChange} />
                 <Input
                     type='text'
                     name='to_name'
-                    placeholder='to name'
+                    placeholder='to '
                     value={toSend.to_name}
                     onChange={handleChange} />
                 <TextArea
                     type='text'
                     name='message'
-                    placeholder='Your message'
+                    placeholder='message'
                     value={toSend.message}
                     onChange={handleChange}
                 />
