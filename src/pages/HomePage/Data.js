@@ -12,8 +12,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: '',
     headline: 'A JavaScript Full-Stack Developer',
-    description:
-        'A self-motivated IT professional with huge knowledge and proficiency in JavaScript, NodeJS, React, React-Native, Kotlin, Swift and mobile responsive web development, as well as strong skills and ability in writing clean and efficient code.',
+    description:'A self-motivated IT professional with huge knowledge and proficiency in JavaScript, NodeJS, React, React-Native, Kotlin, Swift and mobile responsive web development, as well as strong skills and ability in writing clean and efficient code.',
     buttonLabel: 'Contact Me',
     imgStart: '',
     img: dev,
