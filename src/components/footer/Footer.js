@@ -2,9 +2,9 @@ import React from 'react';
 import {
     FaFacebook,
     FaInstagram,
-    FaYoutube,
     FaTwitter,
-    FaLinkedin
+    FaLinkedin,
+    FaGithub
 } from 'react-icons/fa';
 import { SiAnsible } from 'react-icons/si'
 
@@ -13,7 +13,6 @@ import {
     SocialMedia,
     SocialMediaWrap,
     SocialLogo,
-    SocialIcon,
     WebsiteRights,
     SocialIcons,
     SocialIconLink
@@ -27,43 +26,43 @@ function Footer() {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to='/'>
-                    <SiAnsible />
-                         Anees
+                        <SiAnsible />
+                        Anees
                     </SocialLogo>
                     <WebsiteRights>IM © 2020</WebsiteRights>
                     <SocialIcons>
-                        <SocialIconLink 
-                        href={'//www.facebook.com/ahmad.anis.524/' }
-                        target='_blank' 
-                        aria-label='Facebook'>
+                        <SocialIconLink
+                            href={'//www.facebook.com/ahmad.anis.524/'}
+                            target='_blank'
+                            aria-label='Facebook'>
                             <FaFacebook />
                         </SocialIconLink>
-                        <SocialIconLink 
-                        href='/' 
-                        target={'//www.instagram.com/ahmad_anis_/'} 
-                        aria-label='Instagram'>
+                        <SocialIconLink
+                            href='/'
+                            target={'//www.instagram.com/ahmad_anis_/'}
+                            aria-label='Instagram'>
                             <FaInstagram />
                         </SocialIconLink>
                         <SocialIconLink
                             href={
-                                '//www.youtube.com/'
+                                '//github.com/AHMADanis'
                             }
                             rel='noopener noreferrer'
                             target='_blank'
-                            aria-label='Youtube'
+                            aria-label='Github'
                         >
-                            <FaYoutube />
+                            <FaGithub />
                         </SocialIconLink>
-                        <SocialIconLink 
-                        href={'//twitter.com/AHMAD_aniis/'}
-                        target='_blank' 
-                        aria-label='Twitter'>
+                        <SocialIconLink
+                            href={'//twitter.com/AHMAD_aniis/'}
+                            target='_blank'
+                            aria-label='Twitter'>
                             <FaTwitter />
                         </SocialIconLink>
-                        <SocialIconLink 
-                        href={'//www.linkedin.com/in/anees-ahmad-0711/' }
-                        target='_blank' 
-                        aria-label='LinkedIn'>
+                        <SocialIconLink
+                            href={'//www.linkedin.com/in/anees-ahmad-0711/'}
+                            target='_blank'
+                            aria-label='LinkedIn'>
                             <FaLinkedin />
                         </SocialIconLink>
                     </SocialIcons>

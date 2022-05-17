@@ -11,8 +11,8 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: false,
     topLine: '',
-    headline: 'A JavaScript Full-Stack Developer',
-    description:'A self-motivated IT professional with huge knowledge and proficiency in JavaScript, NodeJS, React, React-Native, Kotlin, Swift and mobile responsive web development, as well as strong skills and ability in writing clean and efficient code.',
+    headline: 'Full-Stack Developer',
+    description: 'I am a self-motivated IT professional with huge knowledge and proficiency in JavaScript, NodeJS, CSS-in-JS, React and mobile responsive web development, as well as strong skills and ability in writing clean and efficient code.',
     buttonLabel: 'Contact Me',
     imgStart: '',
     img: dev,
@@ -28,7 +28,7 @@ export const homeObjTwo = {
     lightTextDesc: true,
     topLine: 'Experienced in',
     headline: 'Hybrid Mobile Application Development',
-    description: 'Mobile Application Developer with over two years of experience in Hybrid Mobile Applications Development using React-Native. Anees is also experienced in native mobile Apps development using Kotlin and Swift. He has a good understanding of Databases like SQLite, MongoDB, MySQL...',
+    description: 'Mobile Apps Development over two years of experience in Hybrid Apps Development using React-Native. Anees is also experienced in native mobile Apps development using Kotlin and Swift. He has a good understanding of Databases like MongoDB, MySQL...',
     buttonLabel: 'Get Started',
     imgStart: 'start',
     img: mobdev,
@@ -53,20 +53,4 @@ export const homeObjThree = {
     start: ''
 };
 
-export const homeObjFour = {
-    primary: false,
-    lightBg: true,
-    lightTopLine: false,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Anees Ahmad',
-    headline: 'I Am a JavaScript Full-Stack Developer',
-    description:
-        'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-    buttonLabel: 'Get Started',
-    imgStart: 'start',
-    img: svg3,
-    alt: 'Credit Card',
-    start: 'true'
-};
 

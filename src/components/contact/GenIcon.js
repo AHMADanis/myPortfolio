@@ -52,7 +52,6 @@ const GenIcon = () => {
         <Text color="gray" size="14px">Address</Text>
       </IconTextWrapper>
       <Text color='white'>Gymnasistgatan 33C 21551 Malmö</Text>
-
     </>
   );
 };
