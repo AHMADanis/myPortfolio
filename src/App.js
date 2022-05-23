@@ -15,7 +15,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route path='/blog' element={<Blog />} />
       </Routes>
       <Footer />
     </Router>

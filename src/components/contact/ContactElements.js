@@ -40,8 +40,6 @@ display: flex;
 align-items: center;
 `
 
-
-
 const InfoRow = styled.div`
   display: flex;
   margin: 0 -15px -15px -15px;
@@ -70,8 +68,6 @@ const Form = styled.form`
     margin: 4px 0;
     border-radius: 0 6px 6px 0;
 `;
-
-
 
 const TextArea = styled.textarea`
     padding: 4px 8px;

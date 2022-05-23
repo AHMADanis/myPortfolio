@@ -12,7 +12,6 @@ export const homeObjOne = {
     topLine: '',
     headline: 'Full-Stack Developer',
     description: 'I am a self-motivated IT professional with huge knowledge and proficiency in JavaScript, NodeJS, CSS-in-JS, React and mobile responsive web development, as well as strong skills and ability in writing clean and efficient code.',
-    buttonLabel: 'Contact Me',
     imgStart: '',
     img: dev,
     alt: 'WebApp',
@@ -28,7 +27,6 @@ export const homeObjTwo = {
     topLine: 'Experienced in',
     headline: 'Hybrid Mobile Application Development',
     description: 'Mobile Apps Development over two years of experience in Hybrid Apps Development using React-Native. Anees is also experienced in native mobile Apps development using Kotlin and Swift. He has a good understanding of Databases like MongoDB, MySQL...',
-    buttonLabel: 'Get Started',
     imgStart: 'start',
     img: mobdev,
     alt: 'mobile apps',
@@ -45,7 +43,6 @@ export const homeObjThree = {
     headline: 'I am a JavaScript Full-Stack Developer',
     description:
         'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-    buttonLabel: 'Get Started',
     imgStart: '',
     img: svg2,
     alt: 'Credit Card',

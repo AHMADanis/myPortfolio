@@ -53,7 +53,7 @@ const Navbar = () => {
                             </NavItem>
 
                             <NavItem>
-                                <NavLinks to='/Blog'>
+                                <NavLinks to='/'>
                                     blog
                                 </NavLinks>
                             </NavItem>
@@ -63,7 +63,7 @@ const Navbar = () => {
                                         <Button primary>CONTACT</Button>
                                     </NavBtnLink>
                                 ) : (
-                                    <NavBtnLink to='/sign-up'>
+                                    <NavBtnLink to='/contact'>
                                         <Button fontBig primary>
                                             CONTACT
                                         </Button>
